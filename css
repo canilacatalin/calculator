@@ -1,0 +1,189 @@
+body{
+	background-repeat: no-repeat;
+	background-image: url('operators/background.jpg');
+	z-index:-1;
+	
+	background-size: cover;
+}
+h1{
+	  color: #062A78; font-family: 'Rouge Script', cursive; font-size: 100px; font-weight: normal; 
+	  line-height: 110px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #082b34;
+	 
+	text-align: center;
+}
+
+.howToUse {
+	margin-left: 100px;
+	font-size: 30px;
+	-webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+
+.panel {
+	
+	background-image: url('operators/howtouse.png');
+	background-repeat: no-repeat;
+	background-size:contain;
+    height:700px;
+	display:none;
+    font-family:garamond,times-new-roman,serif;
+}
+
+
+#nothing {
+	
+	font-size: 30px;
+	display: inline-block;
+	position: absolute;
+	margin-left:  470px;
+	margin-top: 30px;
+}
+
+.positioning {
+	padding-top: 300px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.bgimg {
+   background-repeat: no-repeat;
+   background-size:contain;
+   height:50px;width:50px;
+   display:inline-block;
+   background-color: transparent;
+   position: relative;
+   margin-top: 10px;
+  
+}
+.equalsClass 
+{
+	display: inline-block;
+}
+.result {
+    background-size:contain;
+	/*background-color: #CEF0D4 #F0F8FF;*/
+	background-color: transparent;
+	height:50px;width:50px;
+	position: absolute;
+	font-size: 30px;
+	text-align: center;
+	display:inline-block;
+	margin-left: 580px;
+	margin-top: 30px;
+	
+}
+
+#afterE {
+   background-size:contain;
+   width:40px;
+   height: 50px;
+   display:inline-block;
+   background-color: transparent;
+   position: absolute;
+   font-size: 30px;
+   margin-top: 15px;
+}
+	
+.clear{
+	background-image: url('operators/clear.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:30px;width:30px;
+	display:inline-block;
+}
+.openBracket {
+	background-image: url('operators/obracket.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:40px;width:40px;
+	display:inline-block;
+}
+.closedBracket {
+	background-image: url('operators/cbracket.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:40px;width:40px;
+	display:inline-block;
+}
+.minus {
+	background-image: url('operators/minus.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:50px;width:50px;
+	display:inline-block;
+}
+.plus{
+	background-image: url('operators/plus.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:40px;width:40px;
+	display:inline-block;
+}
+.divide{
+	background-image: url('operators/divide.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:40px;width:40px;
+	display:inline-block;
+	
+}
+.multiply{
+   background-image: url('operators/multiply.png');
+   background-repeat: no-repeat;
+   background-size:contain;
+   height:30px;width:30px;
+   display:inline-block;
+   margin-bottom: 10px;
+}
+.equal{
+	background-image: url('operators/equal.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:50px;width:50px;
+	display:inline-block;
+}
+.inputSign{
+	background-image: url('operators/input.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+	height:40px;width:40px;
+	display:inline-block;
+}
+
+.box{
+	background: -webkit-linear-gradient(-45deg, #DBE9F4, #21ABCD);
+	height:600px;
+	width:60%;
+	border-radius:10px;
+	margin:auto;
+	
+}
+.myOutput{
+	background: -webkit-linear-gradient(-45deg, #C9FFE5, #F0F8FF);
+	height:380px;
+	width:900px;
+	position: absolute;
+	margin-top:20px;
+	margin-left: 40px;
+	padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+	border-style: outset;
+	border-width: medium;
+	border-color: #ff0000 #00ff00 #0000ff;
+	 border-style: solid;
+}
+input[type="text"]{
+   background-size:contain;
+   width:40px;
+   display:inline-block;
+   background-color: transparent;
+   font-size: 18px;
+   position: relative;
+   float: left;
+   margin: 10px 0 10px 0px;
+   text-align: center;
+}
